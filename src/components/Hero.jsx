@@ -58,7 +58,7 @@ const AboutSection = () => {
       variants={fadeIn('up', 0.1)}
         initial="hidden"
         whileInView="show"
-        viewport={{ once: false, amount: 0.7 }
+        viewport={{ once: false, amount: 0.3}
       }
       >
         <div className="container mx-auto px-6 lg:px-10">

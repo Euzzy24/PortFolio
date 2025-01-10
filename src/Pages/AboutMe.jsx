@@ -45,7 +45,7 @@ const AboutMe = () => {
       {/* About Description */}
       <div className="text-justify mb-8 px-16">
         <p className="font-medium text-lg text-gray-200 leading-relaxed">
-        Hello! I'm Mereal Kate, a 4th-year BS Information Technology student at Central Mindanao University. I never dreamed of being part of the emerging trends in the IT industry, but I believe that fate has brought me here. I chose IT out of necessity, but I stayed by choice as I learned to love it and continue to grow in it. I have developed a passion for technology and solving problems through code. I’m eager to learn and take on new challenges. I specialize in web development, with experience in both front-end and back-end technologies. Moreover, I have also been involved as a project manager and test for quality assurance.
+        Hello! I'm Mereal Kate, a 4th-year BS Information Technology student at Central Mindanao University. I never dreamed of being part of the emerging trends in the IT industry, but I believe that fate has brought me here. I chose IT out of necessity, but I stayed by choice as I learned to love it and continue to grow in it. I have developed a passion for technology and solving problems through code. I’m eager to learn and take on new challenges. I specialize in web development, with experience in both front-end and back-end technologies. Moreover, I have also been involved as a project manager and quality assurance tester on different projects.
         </p>
       </div>
 
@@ -53,8 +53,8 @@ const AboutMe = () => {
       <div className="mb-8 px-16">
         <h3 className="text-xl font-semibold text-center text-lightViolet mb-4 font-chilanka">Skills</h3>
         <ul className="list-none list-inside text-lg text-justify text-gray-100">
-          <li>Frontend: HTML, CSS, JavaScript, React, Tailwind CSS</li>
-          <li>Backend: Node.js, Express</li>
+          <li>Web Tools: HTML, CSS, JavaScript, React, Tailwind CSS</li>
+          <li>Programming Languages: Php, Python, JavaScript</li>
           <li>Databases: MySQL, SQLite</li>
           <li>Version Control: Git, GitHub</li>
           <li>Project Management: Agile Methodologies, Stakeholder Communication, Time and Resource Allocation
