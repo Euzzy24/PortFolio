@@ -72,7 +72,7 @@ const AboutMe = () => {
       {/* Contact Section */}
       <div className="text-center mb-8">
         <h3 className="text-xl font-semibold mb-4 text-lightViolet font-chilanka">Contact Me</h3>
-        <p className="text-lg text-gray-100">Feel free to reach out to me via email at <a href="mailto:youremail@example.com" className="text-lightViolet hover:underline">merealkate@example.com</a> or connect with me on <a href="https://github.com/Euzzy24" target="_blank" className="text-lightViolet hover:underline">GitHub</a>.</p>
+        <p className="text-lg text-gray-100">Feel free to reach out to me via email at <a href="mailto:merealkate@gmail.com" className="text-lightViolet hover:underline">merealkate@gmail.com</a> or connect with me on <a href="https://github.com/Euzzy24" target="_blank" className="text-lightViolet hover:underline">GitHub</a>.</p>
       </div>
     </div>
   );
