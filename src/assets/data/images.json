@@ -1,0 +1,44 @@
+{
+"logo" : [
+  {
+    "id": 1,
+    "src": "/logoss/bootstrap.png",
+    "alt": "Image 1 description"
+  },
+  {
+    "id": 2,
+    "src": "/logoss/css-3.png",
+    "alt": "Image 2 description"
+  },
+  {
+    "id": 3,
+    "src": "/logoss/figma.png",
+    "alt": "Placeholder image"
+  },
+  {
+      "id": 4,
+      "src": "/logoss/html.png",
+      "alt": "Placeholder image"
+    },
+  {
+      "id": 5,
+      "src": "/logoss/tailwind.png",
+      "alt": "Placeholder image"
+  },
+  {
+      "id": 6,
+      "src": "/logoss/js.png",
+      "alt": "Placeholder image"
+    },
+  {
+      "id": 7,
+      "src": "/logoss/php.png",
+      "alt": "Placeholder image"
+  },
+  {
+      "id": 8,
+      "src": "/logoss/react.png",
+      "alt": "Placeholder image"
+  }
+]
+}

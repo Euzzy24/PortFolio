@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Great+Vibes&family=Chilanka&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --black-gradient: linear-gradient(
+    144.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  );
+  --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+.text-gradient {
+  background: radial-gradient(
+    64.18% 64.18% at 71.16% 35.69%,
+    #def9fa 0.89%,
+    #bef3f5 17.23%,
+    #9dedf0 42.04%,
+    #7de7eb 55.12%,
+    #5ce1e6 71.54%,
+    #33bbcf 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.bg-blue-gradient {
+  background: linear-gradient(
+    157.81deg,
+    #def9fa -43.27%,
+    #bef3f5 -21.24%,
+    #9dedf0 12.19%,
+    #7de7eb 29.82%,
+    #5ce1e6 51.94%,
+    #33bbcf 90.29%
+  );
+}
+
+.bg-black-gradient {
+  background: linear-gradient(
+    144.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  );
+}
+
+.bg-black-gradient-2 {
+  background: linear-gradient(
+    -168.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  );
+}
+
+.bg-gray-gradient {
+  background: linear-gradient(
+    153.47deg,
+    rgba(255, 255, 255, 0) -341.94%,
+    #14101d 95.11%
+  );
+}
+
+.bg-discount-gradient {
+  background: linear-gradient(125.17deg, #272727 0%, #11101d 100%);
+}
+
+.box-shadow {
+  box-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+}
+
+.sidebar {
+  -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+.feature-card:hover {
+  background: var(--black-gradient);
+  box-shadow: var(--card-shadow);
+}
+
+.feedback-container .feedback-card:last-child {
+  margin-right: 0px;
+}
+
+.feedback-card {
+  background: transparent;
+}
+
+.feedback-card:hover {
+  background: var(--black-gradient);
+}
+
+.blue__gradient {
+  background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
+  filter: blur(123px);
+}
+
+.pink__gradient {
+  background: linear-gradient(90deg, #f4c4f3 0%, #fc67fa 100%);
+  filter: blur(900px);
+}
+
+.white__gradient {
+  background: rgba(255, 255, 255, 0.6);
+  filter: blur(750px);
+}
+
+.nav_bg {
+  background-color: #1a0b2e;
+}
+
+@layer utilities {
+  .neon-shadow {
+    box-shadow: -8px 8px 15px 5px rgba(138, 43, 226, 0.8),
+      /* Shifted bottom-left */ -10px 10px 25px 8px rgba(138, 43, 226, 0.6),
+      /* Shifted bottom-left */ -13px 13px 40px 12px rgba(138, 43, 226, 0.4); /* Shifted bottom-left */
+  }
+}
+@layer utilities {
+  .wiggly-polygon {
+    clip-path: polygon(
+      50% 5%,
+      75% 15%,
+      90% 50%,
+      75% 85%,
+      50% 95%,
+      25% 85%,
+      10% 50%,
+      25% 15%
+    );
+    animation: wiggle 5s infinite ease-in-out; /* 5s total duration with 5 stages */
+    filter: blur(8px); /* Blurring effect */
+    background: linear-gradient(45deg, #1e3a8a, #0284c7, #34d399, #10b981);
+    width: 190; /* Blue-Green gradient */
+  }
+  @keyframes wiggle {
+    /* Stage 1: Initial shape (0%) */
+    0% {
+      clip-path: polygon(
+        50% 5%,
+        /* Top center rounded */ 75% 15%,
+        /* Top right rounded */ 90% 50%,
+        /* Right side rounded */ 75% 85%,
+        /* Bottom right rounded */ 50% 95%,
+        /* Bottom center rounded */ 25% 85%,
+        /* Bottom left rounded */ 10% 50%,
+        /* Left side rounded */ 25% 15% /* Top left rounded */
+      );
+    }
+
+    /* Stage 2: Slight distortion (25%) */
+    25% {
+      clip-path: polygon(
+        50% 10%,
+        /* Top center slightly down */ 70% 20%,
+        /* Top right pulled inward */ 90% 40%,
+        /* Right side further in */ 70% 70%,
+        /* Bottom right pushed inward */ 50% 80%,
+        /* Bottom center moved up */ 30% 70%,
+        /* Bottom left inward */ 10% 40%,
+        /* Left side inward */ 30% 20% /* Top left inward */
+      );
+    }
+
+    /* Stage 3: Moderate distortion (50%) */
+    50% {
+      clip-path: polygon(
+        50% 15%,
+        /* Top center slightly lower */ 65% 30%,
+        /* Top right further shifted */ 85% 45%,
+        /* Right side pulled more */ 65% 75%,
+        /* Bottom right pushed inward */ 50% 90%,
+        /* Bottom center up */ 35% 75%,
+        /* Bottom left inward */ 15% 45%,
+        /* Left side inward */ 35% 30% /* Top left inward */
+      );
+    }
+
+    /* Stage 4: Stronger distortion (75%) */
+    75% {
+      clip-path: polygon(
+        50% 20%,
+        /* Top center shifted further */ 60% 40%,
+        /* Top right more inward */ 80% 50%,
+        /* Right side more inward */ 60% 60%,
+        /* Bottom right more inward */ 50% 95%,
+        /* Bottom center moved up */ 40% 60%,
+        /* Bottom left inward */ 20% 50%,
+        /* Left side more inward */ 40% 40% /* Top left more inward */
+      );
+    }
+
+    /* Stage 5: Return to the initial shape (100%) */
+    100% {
+      clip-path: polygon(
+        50% 5%,
+        /* Top center rounded */ 75% 15%,
+        /* Top right rounded */ 90% 50%,
+        /* Right side rounded */ 75% 85%,
+        /* Bottom right rounded */ 50% 95%,
+        /* Bottom center rounded */ 25% 85%,
+        /* Bottom left rounded */ 10% 50%,
+        /* Left side rounded */ 25% 15% /* Top left rounded */
+      );
+    }
+  }
+}
+
+@keyframes moveLeftRight {
+  0%,
+  100% {
+    transform: rotate(0deg); /* Neutral position */
+  }
+  25% {
+    transform: rotate(-10deg); /* Rotate slightly to the left */
+  }
+  75% {
+    transform: rotate(10deg); /* Rotate slightly to the right */
+  }
+}
+
+body {
+  /* background: #11071f; */
+  color: white;
+}

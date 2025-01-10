@@ -1,0 +1,69 @@
+{
+    "featuredProjects": [
+      {
+        "id": 1,
+        "mainImage": {
+          "src": "/projects/figma1.png",
+          "alt": "Main Photo"
+        },
+        "overlappingImage": {
+          "src": "/projects/figma1_.png",
+          "alt": "Overlapping Photo"
+        },
+        "info" : {
+            "title" : "Accounting System (Figma Only)",
+            "description" : "Crafted with precision using Figma, this UI design is tailored for an advanced accounting management system. It combines elegant aesthetics with intuitive functionality, ensuring a seamless user experience. The design emphasizes smooth navigation and effortless transaction handling, reflecting a perfect balance of form and function.",
+            "year": "2024"
+        } 
+      },
+      {
+        "id": 2,
+        "mainImage": {
+          "src": "/projects/proj2.png",
+          "alt": "Another Main Photo"
+        },
+        "overlappingImage": {
+          "src": "/projects/proj2_.png",
+          "alt": "Another Overlapping Photo"
+        },
+         "info" : {
+            "title" : "SwapShop",
+            "description" : "Swapshop is a dynamic web application designed as a modern-day barter system, catering to individuals who wish to exchange their items for something new. This innovative platform not only facilitates item swaps but also accommodates buying and selling transactions, providing users with the flexibility to choose based on their preferences and needs.",
+            "year": "2023"
+        } 
+      },
+      {
+       "id": 3,
+        "mainImage": {
+          "src": "/projects/proj3.png",
+          "alt": "Another Main Photo"
+        },
+        "overlappingImage": {
+          "src": "/projects/proj3_.png",
+          "alt": "Another Overlapping Photo"
+        },
+         "info" : {
+            "title" : "Task Management",
+            "description" : "Task Management is a web-based system designed to streamline organizational workflows by providing a centralized to-do list. It empowers administrators and managers with the capability to assign tasks efficiently to individual users, ensuring clear delegation and accountability. Users, in turn, can easily view their assigned tasks, monitor progress, and stay organized.",
+            "year": "2024"
+        } 
+      },
+      {
+        "id": 4,
+         "mainImage": {
+           "src": "/projects/proj4.png",
+           "alt": "Another Main Photo"
+         },
+         "overlappingImage": {
+           "src": "/projects/proj4_.png",
+           "alt": "Another Overlapping Photo"
+         },
+          "info" : {
+            "title" : "Journal Chronicle",
+            "description" : "Journal Chronicle is an academic blog management platform designed for users to seamlessly create, upload, and share their articles. It serves as a hub for academic expression, enabling users to manage their content efficiently while fostering knowledge sharing and intellectual engagement.",
+            "year":"2024"
+        } 
+       }
+    ]
+  }
+  
